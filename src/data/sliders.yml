@@ -1,0 +1,42 @@
+﻿items:
+- name: Dotace
+  img: dotace.jpg
+  text: Využijte našich bohatých zkušeností při&nbsp;přípravě žádostí i&nbsp;administrace dotací z&nbsp;řady Operačních programů i&nbsp;národních dotačních titulů. Připravíme pro&nbsp;Vás optimální řešení.
+  button: Více o dotacích
+  class: show-for-small 
+
+- name: Opatření proti suchu
+  img: opatreni_proti_suchu.jpg
+  text: Naše společnost podporuje instituce státní správy při&nbsp;přípravě adaptačních opatření na&nbsp;období sucha. I&nbsp;Vám dokážeme navrhnout vhodná opatření respektující místní specifika.
+  button: Zobrazit detaily
+  class: show-for-small show-for-medium 
+
+- name: Koncese
+  img: koncese.jpg
+  text: Potřebujete vybrat provozovatele vodohospodářské infrastruktury? Chcete změnit model provozování? Rozhodli jste se&nbsp;upravit stávající provozní smlouvu? Využijte našich rozsáhlých zkušeností. Pomůžeme Vám.
+  button: Více o koncesích
+  class: show-for-small show-for-medium show-for-large 
+
+- name: Koncepční vodohospodářské studie
+  img: koncepcni_vodohospodarske_studie.jpg
+  text: Specialisté ze&nbsp;všech oborů vodního hospodářství a ochrany životního prostředí poskytují poradenské služby s&nbsp;detailními znalostmi lokálních specifik. Díky tomu dovedou přesně porozumět potřebám každého klienta a&nbsp;nabídnout adekvátní řešení.
+  button: Zobrazit detaily
+  class: show-for-small show-for-medium show-for-large 
+
+- name: Projektová dokumentace
+  img: projektova_dokumentace.jpg
+  text: Tým vodohospodářských odborníků pro&nbsp;Vás zajistí veškeré kroky od&nbsp;identifikace problému, přes vypracování studie proveditelnosti a&nbsp;investičního záměru až&nbsp;po&nbsp;projektovou dokumentaci&nbsp;ve všech stupních přípravy. 
+  button: Zobrazit detaily
+  class: hide 
+
+- name: Technický dozor a BOZP
+  img: technicky_dozor_bozp.jpg
+  text: Naše společnost má k&nbsp;dispozici rozsáhlý tým kvalifikovaných expertů, kteří pro&nbsp;Vás zajistí komplexní služby FIDIC inženýra, technického dozoru stavebníka i&nbsp;koordinátora BOZP na&nbsp;staveništi.
+  button: Zobrazit detaily
+  class: hide 
+
+- name: Konference Vodní toky
+  img: konference.jpg
+  text: Konference se koná 26.&nbsp;a&nbsp;27.&nbsp;11.&nbsp;2019 v&nbsp;hotelu Černigov v&nbsp;Hradci Králové. Průběh konference tradičně zahrnuje dva přednáškové bloky oddělené obědem a&nbsp;zakončené společenským večerem s&nbsp;rautem v&nbsp;úterý 26.&nbsp;11.&nbsp;2019 a&nbsp;dopolední přednáškový blok ve&nbsp;středu 27.&nbsp;11.&nbsp;2019.
+  button: Detaily konference
+  class: hide 

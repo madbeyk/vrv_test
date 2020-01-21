@@ -1,0 +1,156 @@
+$clean-hero-slider-accent: $warning-color;
+
+.over {
+//background: -moz-linear-gradient(90deg, rgba(105,105,105,1) 0%, rgba(158,158,158,1) 100%); /* ff3.6+ */
+//background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(158,158,158,1)), color-stop(100%, rgba(105,105,105,1))); /* safari4+,chrome */
+//background: -webkit-linear-gradient(90deg, rgba(105,105,105,1) 0%, rgba(158,158,158,1) 100%); /* safari5.1+,chrome10+ */
+//background: -o-linear-gradient(90deg, rgba(105,105,105,1) 0%, rgba(158,158,158,1) 100%); /* opera 11.10+ */
+//background: -ms-linear-gradient(90deg, rgba(105,105,105,1) 0%, rgba(158,158,158,1) 100%); /* ie10+ */
+//background: linear-gradient(0deg, rgba(105,105,105,1) 0%, rgba(158,158,158,1) 100%); /* w3c */
+//filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9E9E9E', endColorstr='#696969',GradientType=0 ); /* ie6-9 */
+background-color:#d4e3ea;
+  }
+
+.clean-hero-slider {
+
+  .orbit-image {
+    }
+
+  .orbit-caption {
+    padding: 0.5rem 0.25rem;
+    width: auto;
+    height: auto;
+    //background: $black;
+    position: absolute;
+    text-align: center;
+    right: 0;
+    left: 0;
+    bottom: 0em;
+    //padding: 0.2rem 2rem;
+
+    @include breakpoint(medium) {
+      background: rgba(0,0,0,.65);
+      right: 0;
+    }
+
+    @include breakpoint(large) {
+      text-align: left;
+    }
+
+
+    @include breakpoint(xxlarge) {
+      bottom: 2em;
+      }
+
+    a { color:white;}
+    
+    a.button {
+      position:absolute;
+      bottom:0.5em;
+      right:2em;
+      }
+
+    //@include breakpoint(xlarge) {
+    //  padding-right: 10%;
+    //}
+
+    //@include breakpoint(xxlarge) {
+    //  padding-right: 20%;
+    //}
+
+    p {
+      margin-bottom:0;
+      font-size: 0.8rem;
+      line-height: 1.32;
+      text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+
+      @include breakpoint(medium) {
+        font-size: 0.9rem;
+        margin-bottom:0.9rem;
+      }
+      @include breakpoint(large) {
+        font-size: 1.25rem;
+      }
+    }
+
+    h3 {
+      color: $clean-hero-slider-accent;
+      font-size: 1.5rem;
+      margin-bottom: 0.3rem;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+
+      @include breakpoint(medium) {
+        font-size: 1.6rem;
+      }
+      @include breakpoint(large) {
+        font-size: 1.75rem;
+      }
+    }
+  }
+
+  .orbit-slide {
+    //padding-bottom: 40%;
+    //background: $black;
+
+    @include breakpoint(medium) {
+      padding-bottom: 0;
+    }
+  }
+
+  .orbit-controls {
+    button {
+      //background: $clean-hero-slider-accent;
+      background: transparent;
+      padding: 1rem 1rem;
+      cursor: pointer;
+
+      &:hover {
+        //background: $white;
+        color: #ff0000;
+      }
+    }
+
+    .orbit-previous {
+      @include breakpoint(medium) {
+        //left: auto;
+        right: 0.5rem;
+      }
+    }
+
+    .orbit-next {
+      @include breakpoint(medium) {
+        right: 0.5rem;
+      }
+    }
+  }
+
+  .orbit-bullets {
+    display: none;
+
+    @include breakpoint(medium) {
+      display: block;
+      margin-bottom: 0;
+      margin-top: -3rem;
+      background: none;
+    }
+
+    button {
+      width: 3rem;
+      height: 0.4rem;
+      border-radius: 0;
+      background-color: $white;
+
+      &.is-active {
+        background-color: $clean-hero-slider-accent;
+      }
+    }
+  }
+
+  ul.orbit-container {
+    //height: auto !important;
+  }
+
+  li.orbit-slide {
+    max-height: none !important;
+  }
+}

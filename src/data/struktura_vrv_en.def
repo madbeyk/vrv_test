@@ -1,0 +1,34 @@
+0_ospo	About company	0	0	
+0_sluz	Services	0	0	
+0_refe	References	0	0	
+0_kont	Contacts	0	0	
+0_ospo_uvod	Introduction	0_ospo	0	
+0_ospo_hist	History of the company	0_ospo	0	
+0_ospo_cert	Certificates	0_ospo	0	
+0_kont_sidl	Company domicile	0_kont	0	
+0_kont_mapy	Where to find us	0_kont	0	
+0_kont_bank	Bank account	0_kont	0	
+0_sluz_inve	Building investment	0_sluz	0	
+0_sluz_vodn	Water and environmental sector	0_sluz	0	
+0_sluz_proj	Design	0_sluz	0	
+0_sluz_dals	Other services	0_sluz	0	
+0_sluz_inve_proj	Project management	0_sluz_inve	0	
+0_sluz_inve_inze	Engineering	0_sluz_inve	0	
+0_sluz_inve_spra	Technical supervisor	0_sluz_inve	0	
+0_sluz_inve_vybe	Tender organization	0_sluz_inve	0	
+0_sluz_inve_dota	Grants, financial analysis	0_sluz_inve	0	
+0_sluz_inve_koor	Work safety coordinator	0_sluz_inve	0	
+0_sluz_inve_prav	Legal services	0_sluz_inve	0	
+0_sluz_vodn_pora	Consultancy	0_sluz_vodn	0	
+0_sluz_vodn_konc	Concession, operating	0_sluz_vodn	0	
+0_sluz_vodn_tbdn	Technically-safe supervision	0_sluz_vodn	0	
+0_sluz_vodn_legi	Legislation, state administration	0_sluz_vodn	0	
+0_sluz_proj_zaso	Water design	0_sluz_proj	0	
+0_sluz_proj_kana	Wastewater design	0_sluz_proj	0	
+0_sluz_proj_vodn	Watercourses and dam design	0_sluz_proj	0	
+0_sluz_proj_plan	Planning under WFD	0_sluz_proj	0	
+0_sluz_proj_mate	Mathematical modelling	0_sluz_proj	0	
+0_sluz_proj_komp	Complex land adjustments	0_sluz_proj	0	
+0_sluz_dals_geod	Geodetic services	0_sluz_dals	0	
+0_sluz_dals_isor	ISO, legislation registers	0_sluz_dals	0	
+0_sluz_dals_konf	Conferences, seminars	0_sluz_dals	0	

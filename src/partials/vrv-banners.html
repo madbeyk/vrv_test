@@ -1,0 +1,13 @@
+      <div id='slick' style='margin:1.4em -0.6em;'>
+        {{#each sliders.items}}
+        <div style='padding:0 0.6em;'>
+          <div style='background-color: rgba(0, 0, 0, 0.72); color: white;'>
+            <img src="assets/img/slider/lr/{{this.img}}" alt="{{this.name}}" />
+            <div style='padding:0.6em 1em 0.8em 1em;'>
+              <h4 style='margin-top:0.15em; font-size:95%; display:inline;'>{{this.name}}</h4>
+              <span class='float-right' style='margin-left:auto;font-size:125%;'><a href='#'><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></span>
+            </div>  
+          </div>
+        </div>  
+        {{/each}}
+      </div>
